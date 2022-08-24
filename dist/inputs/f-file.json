@@ -1,6 +1,6 @@
 {
     "messageServer": {
-      "host": "172.19.0.1",
+      "host": "127.0.0.1",
       "port": 6689
     },
     "inputs": [
