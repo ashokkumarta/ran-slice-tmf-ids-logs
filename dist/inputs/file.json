@@ -1,0 +1,22 @@
+{
+  "messageServer": {
+    "host": "20.193.236.184",
+    "port": 6689
+  },
+  "inputs": [
+    {
+      "source": "RANSlicing#personX",
+      "stream": "logs",
+      "config": {
+        "path": "/home/azureuser/ashok/ran-slice-tmf-ids-deploy/connectors/logs/personx.*"
+      }
+    },
+    {
+      "source": "RANSlicing#zBusiness",
+      "stream": "logs",
+      "config": {
+        "path": "/home/azureuser/ashok/ran-slice-tmf-ids-deploy/connectors/logs/zbusiness.*"
+      }
+    }
+  ]
+}

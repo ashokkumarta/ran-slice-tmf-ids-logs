@@ -1,0 +1,24 @@
+{
+    "messageServer": {
+      "host": "20.193.236.184",
+      "port": 6689
+    },
+    "inputs": [
+      {
+        "source": "RANSlicing#ISP",
+        "stream": "logs",
+        "config": {
+          "path": "/home/azureuser/ashok/ran-slice-tmf-ids-deploy/connectors/logs/isp.*"
+        }
+      },
+      {
+        "source": "RANSlicing#iBusiness",
+        "stream": "logs",
+        "config": {
+          "path": "/home/azureuser/ashok/ran-slice-tmf-ids-deploy/connectors/logs/ibusiness.*"
+        }
+      }
+  
+    ]
+  }
+  
