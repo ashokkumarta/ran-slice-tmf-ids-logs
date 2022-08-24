@@ -1,7 +1,7 @@
 {
   "messageServer": {
     "port": 6689,
-    "host": "20.193.236.184"
+    "host": "127.0.0.1"
   },
   "httpServer": {
     "port": 6688,
