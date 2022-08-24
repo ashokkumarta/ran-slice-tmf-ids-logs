@@ -5,7 +5,7 @@
   },
   "httpServer": {
     "port": 6688,
-    "host": "20.193.236.184"
+    "host": "172.19.0.1"
   },
   "debug": false
 }
