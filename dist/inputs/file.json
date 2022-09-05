@@ -5,7 +5,7 @@
   },
   "inputs": [
     {
-      "source": "Subscriber - 2",
+      "source": "Subscriber-2",
       "stream": "logs",
       "config": {
         "path": "/home/ashokkumar_ta/ids/setup/ran-slice-tmf-ids-deploy/connectors/logs/sub2.*"
