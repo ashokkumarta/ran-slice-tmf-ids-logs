@@ -5,31 +5,24 @@
   },
   "inputs": [
     {
-      "source": "RANSlicing#ISP",
+      "source": "CSP - Resource Admin",
       "stream": "logs",
       "config": {
-        "path": "/home/ashokkumar_ta/ids/setup/ran-slice-tmf-ids-deploy/connectors/logs/isp.*"
+        "path": "/home/ashokkumar_ta/ids/setup/ran-slice-tmf-ids-deploy/connectors/logs/csp.*"
       }
     },
     {
-      "source": "RANSlicing#iBusiness",
+      "source": "Subscriber - 1",
       "stream": "logs",
       "config": {
-        "path": "/home/ashokkumar_ta/ids/setup/ran-slice-tmf-ids-deploy/connectors/logs/ibusiness.*"
+        "path": "/home/ashokkumar_ta/ids/setup/ran-slice-tmf-ids-deploy/connectors/logs/sub1.*"
       }
     },
     {
-      "source": "RANSlicing#personX",
+      "source": "Subscriber - 2",
       "stream": "logs",
       "config": {
-        "path": "/home/ashokkumar_ta/ids/setup/ran-slice-tmf-ids-deploy/connectors/logs/personx.*"
-      }
-    },
-    {
-      "source": "RANSlicing#zBusiness",
-      "stream": "logs",
-      "config": {
-        "path": "/home/ashokkumar_ta/ids/setup/ran-slice-tmf-ids-deploy/connectors/logs/zbusiness.*"
+        "path": "/home/ashokkumar_ta/ids/setup/ran-slice-tmf-ids-deploy/connectors/logs/sub2.*"
       }
     }
 
